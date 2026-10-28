@@ -64,7 +64,7 @@ flowchart LR
 - `Backend/supabase/schema.sql`：Supabase 数据库初始化结构。
 - `render.yaml`：Render 后端部署配置模板。
 
-语音、视觉和文本能力使用阿里云百炼模型，使用者需要自行配置服务；后端支持本地 SQLite 及 Supabase。字体许可说明见各字体目录。
+语音、视觉和文本能力使用阿里云百炼模型炼：`qwen3-asr-flash` / `qwen3-vl-plus` / `qwen-p`，使用者需要自行配置服务；后端支持本地 SQLite 及 Supabase。字体许可说明见各字体目录。
 
 ## 本地运行
 
