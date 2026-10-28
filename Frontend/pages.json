@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "工明白"
+      }
+    },
+    {
+      "path": "pages/project/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "项目 · 工明白"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "工明白",
+    "navigationBarBackgroundColor": "#f1ece0",
+    "backgroundColor": "#f1ece0",
+    "backgroundColorContent": "#f1ece0",
+    "app-plus": {"background":"#f1ece0"}
+  }
+}

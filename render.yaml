@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: gongmingbai-api
+    runtime: docker
+    plan: free
+    region: singapore
+    rootDir: Backend
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: ENABLE_GUEST
+        value: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: SUPABASE_SECRET_KEY
+        sync: false
+      - key: DASHSCOPE_API_KEY
+        sync: false
+      - key: DASHSCOPE_BASE_URL
+        value: https://dashscope.aliyuncs.com/compatible-mode/v1
+      - key: CORS_ORIGINS
+        value: http://localhost:5173,http://127.0.0.1:5173
